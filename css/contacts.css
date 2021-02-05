@@ -1,0 +1,18 @@
+@import url("all.css");
+
+.flex-container {
+    display: flex;
+}
+
+.mensa-info, .resp-info {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.mensa-info p, .resp-info p {
+    margin: 5px auto;
+}
+
+#responsabili h2 {
+    margin-bottom: 10px;
+}

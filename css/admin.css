@@ -1,0 +1,44 @@
+@import url("all.css");
+@import url("form.css");
+
+.flex-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.mensa-stats {
+    margin-right: 30px;
+}
+
+
+.mensa-stats h4 {
+    margin: 0;
+}
+
+.mensa-stats ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+.mensa-stats ul li {
+    margin-bottom: 3px;
+}
+
+.mensa-stats ul li::before {
+    content: "+";
+    color: rgb(103, 15, 15);
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.flex-form-row label {
+    width: 180px;
+}
+
+.flex-form-row input[type="checkbox"] {
+    cursor: pointer;
+}
+
+.flex-submit {
+    margin-right: 5px;
+}

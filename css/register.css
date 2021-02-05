@@ -1,0 +1,10 @@
+@import url("all.css");
+@import url("form.css");
+
+.flex-form-row label {
+    width: 165px;
+}
+
+.flex-submit {
+    width: 125px;
+}

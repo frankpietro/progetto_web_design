@@ -1,0 +1,14 @@
+@import url("all.css");
+@import url("form.css");
+
+.flex-form-row label {
+    width: 100px;
+}
+
+.flex-submit {
+    width: 100px;
+}
+
+#tot_charge_error {
+    color: rgb(39, 182, 20);
+}

@@ -1,0 +1,104 @@
+.flex-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-form-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 8px;
+    align-items: center;
+}
+
+.flex-form-row label {
+    width: 200px;
+    text-align: left;
+    font-weight: bold;
+    font-family: Georgia;
+    color: rgb(103, 15, 15);
+    font-size: 17px;
+}
+
+.flex-form-row input, .flex-form-row select, .flex-fieldset-row input {
+    flex: 1;
+    border: 1px solid #333;
+    border-radius: 3px;
+    background-color: transparent;
+    box-sizing: border-box;
+    max-width: 300px;
+    min-height: 32px;
+    padding: 5px;
+    margin: 0;
+    font-size: 16px;
+}
+
+fieldset {
+    border: 0;
+    padding: 0 0 10px 0;
+}
+
+fieldset legend {
+    color: rgb(103, 15, 15);
+    text-align: left;
+    font-weight: bold;
+    font-family: Georgia;
+    font-size: 17px;
+    padding: 0 0 4px 0;
+}
+
+.flex-fieldset-row label {
+    width: 200px;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.flex-submit, button {
+    width: 100px;
+    border-width: 3px;
+    border-color: rgb(103, 15, 15);
+    color: rgb(103, 15, 15);
+    border-radius: 3px;
+    font-weight: bold;
+    font-family: Georgia;
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.flex-submit:hover, button:hover {
+    background-color: rgb(103, 15, 15);
+    color: white;
+}
+
+.error {
+    font-size: small;
+    color: rgb(186, 14, 14);
+    margin-left: 10px;
+}
+
+.info {
+    font-size: small;
+    margin-left: 10px;
+}
+
+.form-error {
+    margin: 15px 0;
+}
+
+.p-confirm {
+    width: 30px;
+    background-color: transparent;
+    border: none;
+    border-radius: 10px;
+    color: rgb(103, 15, 15);
+    font-weight: bold;
+    font-family: Georgia;
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.p-confirm:hover {
+    background-color: rgb(103, 15, 15);
+    color: white;
+}

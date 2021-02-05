@@ -1,0 +1,46 @@
+@import url("all.css");
+@import url("form.css");
+
+.flex-form-row label {
+    width: 36px;
+}
+
+.flex-submit {
+    width: 80px;
+}
+
+.menu_daily_tables {
+    display: block;
+}
+
+.menu_daily_tables table {
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+.table_caption{
+    font-weight: bold;
+    font-family: Georgia;
+    color: rgb(103, 15, 15);
+    padding-bottom: 5px;
+    font-size: 17px;
+}
+
+th {
+    padding: 5px 3px;
+    font-weight: bold;
+    font-family: Georgia;
+    color: rgb(103, 15, 15);
+    width: 10%;
+    min-width: 130px;
+}
+
+td {
+    width: 30%;
+    padding: 5px 8px;
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+}

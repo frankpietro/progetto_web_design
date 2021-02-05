@@ -1,0 +1,43 @@
+@import url("all.css");
+@import url("form.css");
+
+.flex-form-row label {
+    width: 200px;
+}
+
+.order-elem {
+    margin-top: -10px;
+}
+
+.user-stats ul, .order-elem ul {
+    padding-left: 0;
+    list-style: none;
+    margin-bottom: 2px;
+}
+
+.user-stats ul li, .order-elem ul li {
+    margin-bottom: 3px;
+}
+
+.user-stats ul li::before, .order-elem ul li::before {
+    content: "+";
+    color: rgb(103, 15, 15);
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.order-elem ul ul {
+    padding-left: 20px;
+    list-style: none;
+}
+
+.order-elem ul ul li {
+    margin: 2px 0 0 0;
+}
+
+.order-elem ul ul li::before {
+    content: "-";
+    color: rgb(103, 15, 15);
+    font-weight: bold;
+    margin-right: 8px;
+}

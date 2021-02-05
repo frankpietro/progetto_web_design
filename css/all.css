@@ -1,0 +1,42 @@
+* {
+    font-family: Arial;
+    letter-spacing: 0.5px;
+}
+
+html {
+    height: 100%;
+    background: linear-gradient(to top, rgba(242, 248, 98, 0.50), rgba(245, 115, 115, 0.50));
+    background-attachment: fixed;
+}
+
+body {
+    padding: 0 15px;
+}
+
+h2, h3, h4 {
+    color: rgb(13, 31, 113);
+    font-family: Georgia;
+
+}
+
+.hidden {
+    display: none !important;
+}
+
+.inactive {
+    opacity: 0.7;
+}
+
+.foldable:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+p a, a:visited {
+    text-decoration: none;
+    color: rgb(13, 38, 121);
+}
+
+p a:hover {
+    text-decoration: underline;
+}
